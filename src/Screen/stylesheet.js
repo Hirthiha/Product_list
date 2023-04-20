@@ -6,6 +6,7 @@ const Styles = StyleSheet.create({
     width: '100%',
     height: '100%',
     flex: 1,
+    backgroundColor: color.White,
   },
   view: {
     backgroundColor: color.Lightgreen,
@@ -71,6 +72,13 @@ const Styles = StyleSheet.create({
   ficon: {
     color: color.Black,
     fontSize: 35,
+  },
+  hicon: {
+    position: 'absolute',
+    top: 45,
+    fontSize: 20,
+    left: 7,
+    color: color.Red,
   },
 });
 

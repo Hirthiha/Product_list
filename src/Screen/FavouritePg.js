@@ -1,7 +1,7 @@
 import {View, Text} from 'react-native';
 import Styles from './stylesheet';
 import Icons from 'react-native-vector-icons/MaterialCommunityIcons';
-function Favourite() {
+function Favourite({navigation}) {
   return (
     <View style={Styles.container}>
       <View style={Styles.view}>
